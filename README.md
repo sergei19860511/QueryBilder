@@ -1,7 +1,10 @@
-## Использование
-### Инициализируем объект класса QueryBilder и в конструктор передаём объект класса PDO
+# Использование
+## Теперь класс зависит от пакета aura/sqlquery, v 2.7.1 
+## установить пакет можно по [ссылке](https://packagist.org/packages/aura/sqlquery)
+
+### Инициализируем объект класса QueryBilder
 ```
-    $pdo = new QueryBilder(new PDO(...));
+    $pdo = new QueryBilder();
 ```
 ## Далее пользуемся методами QueryBilder
 ```
